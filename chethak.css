@@ -1,0 +1,192 @@
+body{
+    border: 0;
+    margin:0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    position: fixed;
+    top: 0;
+    background-color: rgb(38, 38, 71);
+    width:100%;
+    height:60px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.logo{
+    padding-top: 20px;
+    padding-left: 5px;
+    height: 20px;
+    cursor: pointer;
+}
+.button{
+padding-top: 20px;  
+justify-content: space-between;  
+background-color:rgb(38, 38, 71); 
+color: white;
+border: none;
+font-size: 16px;
+font-family: 'Montserrat', sans-serif;
+float: right;
+cursor: pointer;
+}
+.side-bar{
+    width: 325px;
+    height:800px;
+    margin-top: 73px;
+    padding: 0;
+}
+
+.side-bar-contents{
+    display: flex;
+    align-items: center;
+    height: 48px;
+    width:310px;
+    margin-left: 10px;
+    margin-bottom: 14px;
+    border: 1px solid rgb(213, 203, 203);
+    border-radius: 5px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.s1{
+    padding-right: 200px;
+}
+.s2{
+    padding-right: 165px;
+}
+.s3{
+    padding-right: 175px;
+    color: grey;
+}
+.s4{
+    padding-right: 206px;
+}
+.s5{
+    padding-right: 211px;
+}
+.s6{
+    padding-right: 196px;
+}
+
+.material-icons{
+    color: #09BEC9;
+}
+.side-bar-contents h3{
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.reset-button button{
+    width: 125px;
+    height: 40px;
+    color: #09BEC9;
+    background-color: white;
+    border: 1.5px solid #09BEC9;
+    border-radius: 5px;
+    font-weight: normal;
+    font-size: medium;
+    cursor: pointer;
+}
+.reset-button{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.main-contents{
+    width:50%;
+    height: 1000px;
+}
+.contents{
+    display: flex;
+}
+.side-bar{
+    display: inline-block;
+}
+.main-contents{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 73px;
+    width: 100%;
+    height: 1000px;
+}
+.scooter{
+    width: 375px;
+    height: 450px;
+    margin-left: 20px;
+    border: 1px solid #f0ebeb;
+    border-radius: 5px;
+}
+
+.scooter img{
+    width: 350px;
+    height: 200px;
+}
+.scooter h1{
+    font-size: 15px;
+    font-weight: 550;
+    padding-left: 45px;
+}
+.features{
+    width: 85px;
+    height: 30px;
+    font-weight: normal;
+}
+.features h6{
+    font-size: 11px;
+}
+.main{
+    display: grid;
+    justify-content: center;
+    grid-column-gap: 90px;
+    grid-row-gap: 90px;
+    grid-template-columns: 30px 30px 30px;
+    grid-template-rows: auto ;
+    width:100px;
+    height: 80px;
+    margin-left: 120px;
+}
+.condition{
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+.model{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.price{
+    text-align: center;
+    margin-bottom: 0;
+    color: #09bec9;
+}
+.condition{
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
+    font-weight: lighter;
+}
+.book-button{
+width: 350px;
+height: 40px;
+color: white;
+background-color: #09bec9;
+border-radius: 5px;
+border: none;
+margin-left: 10px;
+margin-top: 5px;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 11px;
+    font-weight:normal;
+}
+.footer p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.footer span{
+    color: #09bec9;
+    cursor: pointer;
+}
